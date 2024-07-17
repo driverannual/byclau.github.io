@@ -1,0 +1,17 @@
+ul{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    border: 3px solid;
+    border-radius: 10px;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    width: 80px;
+}
+li{
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 22px;
+    list-style: none;
+}

@@ -1,0 +1,8 @@
+img{
+    max-width: 500px;
+    border-radius: 20px;
+    border: 4px solid #25252580;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
