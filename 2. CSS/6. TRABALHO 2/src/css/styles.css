@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Inter, sans-serif;
+    src: url(../media/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    background: #909090;
+    background: linear-gradient(180deg, #909090 0%, #dddddd 100%);
+    padding-bottom: 20px;
+    
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: -15px;
+    color: #3c6408;
+    text-shadow: #0000008c 0px 0 50px;
+}
+h2{
+    font-size: 15px;
+    color: #ddebcb;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000ab;
+    margin-top: 0px;
+}
+img{
+    border-radius: 10px;
+    width: 200px;
+    aspect-ratio: 0.7;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+.gridMacacoFoto{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    padding-bottom: 40px;
+    width: 700px;
+}
+h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    color: #000000ab;
+}
+h6{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 120px;
+    color: #274204;
+}
+.styleSub{
+    background-color: #3c6408;
+    border-bottom: solid #274204 5px;
+    outline: solid #274204 3px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    rotate: -5deg;
+}
+#spac{
+    margin-top: -10px;
+}
